@@ -26,7 +26,7 @@ Plot the graph of volume and time.
 ![vol_time](https://user-images.githubusercontent.com/28421585/48298231-1ed5ff80-e4fd-11e8-826f-f91067ed13ea.JPG)  
 2. Avg.Volume versus Time  
 ![avgvol_time](https://user-images.githubusercontent.com/28421585/48298244-68bee580-e4fd-11e8-9046-b184ccd5cb64.JPG)  
-From figure 1,2 It is noted that the volume is high in time 12:00, 16:00, 18:00  
+From figure 1,2 It is noted that the volume is high in time 12:00, 16:00, 8:00  
 3. Avg.Change versus Time  
 ![change_time](https://user-images.githubusercontent.com/28421585/48298410-3498f400-e500-11e8-937b-13217b776f6b.JPG)  
 I used the data "change" to confirm Figure 1,2 that it affects the price.  
