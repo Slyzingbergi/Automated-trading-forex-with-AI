@@ -6,6 +6,6 @@ My project description is in
 
 
 # Library requirements
-  -keras    -pandas
-  -sklearn  -matplotlib
-  -numpy    -oandapyV20
+  -keras    -pandas  
+  -sklearn  -matplotlib  
+  -numpy    -oandapyV20  
