@@ -1,4 +1,11 @@
 # Automated-trading-forex-with-AI
-My project
+This project only working on USD/JPY.
+My project description is in 
+[my-paper](https://github.com/WatsaponJangsanit/Automated-trading-forex-with-AI/blob/master/my-paper.md)
 
-# hello
+
+
+# Library requirements
+  -keras    -pandas
+  -sklearn  -matplotlib
+  -numpy
