@@ -8,4 +8,4 @@ My project description is in
 # Library requirements
   -keras    -pandas
   -sklearn  -matplotlib
-  -numpy
+  -numpy    -oandapyV20
