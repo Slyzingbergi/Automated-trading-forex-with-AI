@@ -57,7 +57,7 @@ def run_train():
     
     df3 = df3.sort_index(axis=1)
     train = df3
-    test = df3.sample(frac=0.01, replace=True)
+    test = df3.sample(frac=0.10, replace=True)
     train = train.reset_index()
     train = train.drop(columns=['index'])
     test = test.reset_index()
