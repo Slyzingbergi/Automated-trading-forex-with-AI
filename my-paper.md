@@ -67,14 +67,14 @@ I will close the order when have double candle is wrong in the direction that or
   
 # Backtesting  
 I backtesting with 5000 candles(1 candle = 4 hours) on my backtesting system(backtesting.py)  
-Time period of 5000 candles is 2015/08/25 to 2018/11/11.(my latest run backtesting)
-start from equity equal 700 dollar.
-size of lot = (equal/4700) * 1000
-in my system 100 lot = 0.10 lot in real standard account
-space = cost when open order
-cross_day = cost when hold order cross a day
-flow chart of backtesting is same strategy image from above.
-I made a backtesting with my best model (model 6)
+Time period of 5000 candles is 2015/08/25 to 2018/11/11.(my latest run backtesting)  
+start from equity equal 700 dollar.  
+size of lot = (equal/4700) * 1000  
+in my system 100 lot = 0.10 lot in real standard account  
+space = cost when open order  
+cross_day = cost when hold order cross a day  
+flow chart of backtesting is same strategy image from above.  
+I made a backtesting with my best model (model 6)  
 Then I get the result like this picture.  
 ![result](https://user-images.githubusercontent.com/28421585/48327769-e57bcc00-e683-11e8-9ffe-3d0fda8f0672.JPG)  
 now equity = 7079.09$  
