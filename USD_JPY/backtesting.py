@@ -46,7 +46,7 @@ for r in lor:
         rv = client.request(r)  # sent request and get dictionary data
         candles = rv.get('candles') # get only candles data form dictionary type
         for i in range(len(candles)): # run every candles
-#            if sss > 1400 :
+
             lot = (sss/4700) * 1000
             space = lot/50
             cross_day = lot/100
