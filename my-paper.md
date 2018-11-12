@@ -32,7 +32,7 @@ From figure 1,2 It is noted that the volume is high in time 12:00, 16:00, 8:00
 I used the data "change" to confirm Figure 1,2 that it affects the price.  
 I will explain "change" data in the Feature Transformation and Engineering topic.
 I think it can loop through the Data Exploration Visualization process and Feature Transformation Engineering process.  
-
+And found that the average "change" value of the next 4 hours after the needle was about 0.180  
 # Feature Transformation and Engineering  
 I will describe each of the features that I am taking from this step.  
 1."time" I transform time value to 2 class, 0 is mean  low volume time and 1 is high volume time.(Refer from Figure 1,2)  
@@ -55,7 +55,23 @@ I will describe each of the features that I am taking from this step.
   
 10."chk_move" This feature for check needle are happen. I make this feature from "move" value have to more than 0.150 and "percent needle" value lower than 25%, 1 is happened and 0 is not happened.  
   
-# Model Building
+# Model Building   
+I use the input data for train model is 14 feature of the current 4 hours and output is close price value of the next 4 hours using a linear regression.    
+I created a keras model with 2 layer, 12 node on first layer and 1 node on second layer and optimizer by rmsprop mode.  
+I used 10% random data for calculate mean squared error value.  
+# Strategy  
+My strategy is that the predicted value must be more than 0.125 because I want to hold the order in the long time and hold only single order for safety.  
+And how to close the order?  
+I will close the order when have double candle is wrong in the direction that order hold.  
+![flow](https://user-images.githubusercontent.com/28421585/48326798-a1d29380-e67e-11e8-82c1-acc6ed2172ae.JPG)  
+  
+# Backtesting  
+On my backtesting system
+
+
+
+
+
 
 
 # Business Applications and Implementation
