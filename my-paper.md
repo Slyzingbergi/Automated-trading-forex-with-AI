@@ -96,5 +96,12 @@ open sell order syntax example
                           }}    
 
 # Results and Key Learnings  
+Actually, There are many variables to help trading, such as RSI, MACD.  
+These values can be calculated and can train to model.  
+However, I think I still need the trading strategy to be in line with the model I created so that it will make the system perform better.  
+It is up to the person who will use that strategy with Automated Trading AI.  
+The strategies I use are still fundamental and I will continue to develop to a more stable system.  
+
+Thank you for reading. I hope this system will help you.
 
 
